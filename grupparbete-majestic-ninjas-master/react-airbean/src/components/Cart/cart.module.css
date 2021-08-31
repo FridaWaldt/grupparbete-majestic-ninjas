@@ -1,0 +1,218 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Work+Sans:wght@300;400;700&display=swap");
+
+
+
+.wrapper{
+    right: -100%;
+    width: 375px;
+    height: 839px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    position: relative;
+    transition: 300ms;
+}
+
+.hidden{
+    display: none;
+}
+
+.active{
+    right: 0;
+    transition: 300ms; 
+}
+
+.container{
+    width: 341px;
+    height: 565px;
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    margin-top: 60px;
+}
+
+.header{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 120%;
+    margin-bottom: 20px;
+}
+
+.listContainer{
+    width: 95%;
+    min-height: 50%;
+    max-height: 65%;
+}
+
+.itemBox{
+    display: flex;
+    justify-content: space-between;
+    width: 90%;
+    margin: 10px 0;
+}
+
+.dashedBorder {
+    flex: auto;
+    border-bottom: 1px #2f292688 dashed;
+    height: 19px;
+}
+
+.title{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 120%;
+}
+
+.price{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    color: #2F2926;
+}
+
+.btn{
+    border-style: none;
+    cursor: pointer;
+    background: #fff;
+    outline: none;
+}
+
+.amount{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 14px;
+    margin-top: -10px;
+}
+
+.total{
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 23px;
+    line-height: 120%;
+    color: #2F2926;
+}
+
+.moms{
+    font-family: Work Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 12px;
+    line-height: 130%;
+    color: #2F2926;
+    margin-bottom: 30px;
+}
+
+.btnBig{
+    width: 248px;
+    height: 55px;
+    background: #2F2926;
+    border-radius: 50px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 120%;
+    color: #fff;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+.footerBox{
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+.totalBox{
+    display: flex;
+    justify-content: space-between;
+    width: 95%;
+}
+
+.dashedFooter{
+    flex: auto;
+    border-bottom: 1px #2f292688 dashed;
+    height: 22px;
+}
+
+.btnBig:active {
+    background: #2F2926;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}
+
+.cartBtn {
+    position: absolute;
+    left: 77.6%;
+    right: 10.13%;
+    top: 1.75%;
+    bottom: 93.44%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+    background-color: #2f2926;
+    padding-top: 5px;
+    z-index: 1;
+}
+
+.cartIcon {
+    font-size: 28px;
+    color: #fff;
+}
+
+.counterBox {
+    position: absolute;
+    left: 87.73%;
+    top: 1.43%;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 12px;
+    color: #fff;
+    background: #e5674e;
+}
+
+.btnSave{
+    margin-top: 10px;
+    width: 130px;
+    text-decoration: underline;
+    height: 45px;
+    background: #2F2926;
+    border-radius: 50px;
+    font-family: PT Serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 120%;
+    color: #fff;
+    outline: none;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btnSave:active {
+    background: #2F2926;
+    box-shadow: 0 5px #666;
+    transform: translateY(4px);
+}

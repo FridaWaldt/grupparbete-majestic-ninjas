@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Work+Sans&display=swap");
+
+.aboutContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #f3e4e1;
+  color: #2f2926;
+
+  overflow: hidden;
+  position: relative;
+}
+
+.ourCoffeTitle {
+  font-family: "PT Serif", serif;
+  font-size: 42px;
+  padding: 1.6rem 7.1rem 1.4rem 0;
+}
+
+.aboutCoffe {
+  font-family: "Work Sans", sans-serif;
+  font-size: 14px;
+  padding-right: 2rem;
+  padding-left: 2rem;
+}
+
+.aboutCoffe :nth-child(1) {
+  font-weight: bold;
+  line-height: 22px;
+  padding-bottom: 1rem;
+}
+.aboutCoffe :nth-child(2) {
+  font-weight: normal;
+  font-size: 12px;
+  padding: 1rem 0 1rem 0;
+  line-height: 19px;
+}
+.aboutCoffe :nth-child(3) {
+  font-weight: normal;
+  font-size: 12px;
+  padding-bottom: 3rem;
+  line-height: 19px;
+}
+
+.founderImg {
+  border-radius: 50px;
+}
+
+.evaCortado {
+  font-family: "PT Serif", serif;
+  font-weight: bold;
+  font-size: 22px;
+  padding-top: 1rem;
+}
+
+.evasTitle {
+  padding-bottom: 2rem;
+  font-family: "Work Sans", sans-serif;
+  font-size: 12px;
+}
+
+.aboutLeafUp {
+  position: relative;
+  bottom: 0px;
+}
+
+.aboutLeafDown {
+  position: relative;
+  top: 4px;
+}

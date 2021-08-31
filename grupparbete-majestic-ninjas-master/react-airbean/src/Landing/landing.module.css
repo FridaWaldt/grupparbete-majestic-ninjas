@@ -1,0 +1,42 @@
+.landing {
+  height: 665px;
+  width: 375px;
+  background: #38846d;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  /* overflow: hidden; */
+}
+
+.leafsLeft {
+  z-index: 2;
+  position: absolute;
+  left: 0;
+}
+
+#landingLeft {
+  height: 665px;
+  margin-top: 4px;
+}
+
+.logoBox {
+  z-index: 6;
+  position: absolute;
+}
+
+#landingLogo {
+  width: 257px;
+}
+
+.leafsRight {
+  z-index: 4;
+  position: absolute;
+  right: 0;
+}
+
+#landingRight {
+  height: 665px;
+  margin-top: 4px;
+}

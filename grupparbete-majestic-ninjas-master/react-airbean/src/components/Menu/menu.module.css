@@ -1,0 +1,149 @@
+@import url("https://fonts.googleapis.com/css2?family=PT+Serif:wght@400;700&family=Work+Sans:wght@300;400;700&display=swap");
+
+.menuBox {
+  background-color: #f3e4e1;
+  height: 839px;
+  position: relative;
+  overflow: hidden;
+}
+
+/********* NAV *************/
+
+.menuNavigation {
+  background-image: url(../../graphics/graphics-header.svg);
+  background-repeat: no-repeat;
+  height: 15%;
+}
+
+.cartBtn {
+  position: absolute;
+  left: 77.6%;
+  right: 10.13%;
+  top: 1.75%;
+  bottom: 93.44%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+  background-color: #2f2926;
+  padding-top: 5px;
+  z-index: 1;
+}
+
+.cartIcon {
+  font-size: 28px;
+  color: #fff;
+}
+
+.counterBox {
+  position: absolute;
+  left: 87.73%;
+  top: 1.43%;
+  height: 20px;
+  width: 20px;
+  border-radius: 50%;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 12px;
+  color: #fff;
+
+  background: #e5674e;
+}
+
+/******** MAIN CONTENT ***********/
+
+.menuSection {
+  height: 77%;
+}
+
+.menuWrapper {
+  height: 100%;
+  margin: 0 28px;
+  color: #2f2926;
+}
+
+.menuWrapper h1 {
+  font-family: "PT Serif", serif;
+  font-size: 2.65rem;
+  text-align: center;
+  padding-bottom: 0.8rem;
+}
+
+/****** LIST OF ITEMS *******/
+
+.menuList {
+}
+
+.menuItem {
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 1fr;
+  grid-auto-flow: column;
+  margin: 1rem;
+}
+
+/* ITEM CONTENT*/
+
+.dashedBorder {
+  flex: auto;
+  border-bottom: 1px #2f292688 dashed;
+  height: 22px;
+}
+
+.itemButton {
+  grid-column: 1;
+  grid-row: 1/3;
+
+  box-shadow: 0px 0px 16px rgba(0, 0, 0, 0.12);
+  border-radius: 50%;
+  background-color: #2f2926;
+  margin-top: 0.5rem;
+  height: 2rem;
+  padding: 0.5rem;
+  cursor: pointer;
+}
+
+.itemButton:active {
+  background: #2f2926;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.itemBox {
+  display: flex;
+  width: 100%;
+}
+
+.itemTitle {
+  font-size: 1.3rem;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+}
+
+.itemPrice {
+  justify-self: end;
+
+  font-size: 1.3rem;
+  font-family: "PT Serif", serif;
+  font-weight: 700;
+  margin-left: 7px;
+}
+
+.itemDescription {
+  font-family: "Work Sans", sans-serif;
+  font-weight: 400;
+  font-size: 0.7rem;
+  margin-top: 0.2rem;
+}
+
+/******* FOOTER *******/
+
+.menuFooter {
+  height: 8%;
+  background-image: url(../../graphics/graphics-footer.svg);
+  background-repeat: no-repeat;
+}
